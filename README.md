@@ -1,2 +1,2 @@
-# kicad_opencode_plugin
-Simple opencode plugin for kicad that simply call a terminal and run opencode in the opened project folder.
+# opencode_plugin
+Simple Kicad plugin that calls a terminal and runs opencode in the opened project folder directory.
