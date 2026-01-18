@@ -1,0 +1,29 @@
+{
+  "$schema": "https://go.kicad.org/api/schemas/v1",
+  "identifier": "https://github.com/vborgo/opencode_plugin",
+  "name": "Opencode for KiCad",
+  "description": "Launch OpenCode in the current project directory",
+  "runtime": {
+    "type": "python",
+    "min_version": "3.9"
+  },
+  "actions": [
+    {
+      "identifier": "opencode-action",
+      "name": "Opencode",
+      "description": "Launch OpenCode in the current project directory",
+      "show-button": true,
+      "scopes": [
+        "schematic",
+        "pcb"
+      ],
+      "entrypoint": "opencode.py",
+      "icons-light": [
+        "icon.png"
+      ],
+      "icons-dark": [
+        "icon.png"
+      ]
+    }
+  ]
+}
